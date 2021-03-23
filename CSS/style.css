@@ -1,0 +1,85 @@
+body {
+  background-image: url("../images/lightBlue.jpg");
+  background-position: top-right;
+  /* background-color: #f6f9fd; */
+}
+
+.bgColor {
+  background-color: #31354e;
+  border-radius: 18px;
+}
+
+.iconColor {
+  color: #ffffff;
+}
+.img-container {
+  position: relative;
+}
+.profileImg {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 60px;
+  box-shadow: 2px 2px 8px #111a2c;
+}
+.check-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 500px;
+  font-size: 0.7rem;
+  display: inline-flex;
+  position: absolute;
+  bottom: 1rem;
+  right: -0.2rem;
+  background-image: linear-gradient(to right, #8761d1, #dc56b1);
+}
+
+.profileBtn {
+  padding: 0.5rem 2rem;
+  background-image: linear-gradient(to right, #8761d1, #dc56b1);
+  box-shadow: 2px 2px 8px #111a2c;
+  border-radius: 32px;
+}
+
+.socialMediaIcons {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+}
+
+.socilaMediaIcon {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.socialMediaLink {
+  display: inline-flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 8px #111a2c;
+  border-radius: 500px;
+  text-decoration: none;
+}
+
+.socialMediaBgcolorOne {
+  background-image: linear-gradient(to right, #b1237a, #db4185);
+}
+
+.socialMediaBgcolorTwo {
+  background-image: linear-gradient(to right, #0865fe, #34acf9);
+}
+.socialMediaBgcolorThree {
+  background-image: linear-gradient(to right, #634eed, #609bfc);
+}
+
+.socilamediaFont {
+  font-size: 1.2rem;
+}
+
+.text {
+  color: #84879f;
+}
